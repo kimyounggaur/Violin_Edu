@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" role="img" aria-label="Fiddle Tap icon">
+  <rect width="192" height="192" rx="44" fill="#2EAADC"/>
+  <path d="M96 28c18 16 27 36 27 60 0 30-12 54-27 76-15-22-27-46-27-76 0-24 9-44 27-60Z" fill="#241E18"/>
+  <path d="M96 38v118M82 64h28M78 90h36M80 116h32" stroke="#F9F9F7" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="96" cy="70" r="9" fill="#2563EB"/>
+  <circle cx="96" cy="96" r="9" fill="#16A34A"/>
+  <circle cx="96" cy="113" r="9" fill="#EA580C"/>
+  <circle cx="96" cy="142" r="9" fill="#9333EA"/>
+</svg>

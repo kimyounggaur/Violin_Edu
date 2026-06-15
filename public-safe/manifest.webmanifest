@@ -1,0 +1,24 @@
+{
+  "name": "Fiddle Tap - 바이올린 운지법 마스터",
+  "short_name": "Fiddle Tap",
+  "description": "모바일에서 지판을 탭하며 바이올린 운지법과 계이름을 익히는 PWA",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#2EAADC",
+  "background_color": "#F9F9F7",
+  "icons": [
+    {
+      "src": "/icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

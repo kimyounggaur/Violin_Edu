@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1130" width="800" height="1130" role="img" aria-label="바이올린 표준 운지표, 제1포지션, G D A E 네 줄의 개방현과 1~4번 손가락 위치">
+<title>바이올린 표준 운지표 — 제1포지션</title>
+<desc>G·D·A·E 네 줄의 개방현(0)과 1~4번 손가락 위치를, 음이름(영문)과 계이름(한글)으로 보여주는 제1포지션 운지표. 2번과 3번 손가락은 반음 간격으로 서로 붙고, 나머지 손가락 사이는 온음 간격입니다.</desc>
+<defs>
+<linearGradient id="board" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#15110C"/><stop offset="0.5" stop-color="#34291F"/><stop offset="1" stop-color="#15110C"/></linearGradient>
+<linearGradient id="nut" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F3ECDA"/><stop offset="1" stop-color="#D8CAAE"/></linearGradient>
+<filter id="soft" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#000000" flood-opacity="0.20"/></filter>
+</defs>
+<rect x="0" y="0" width="800" height="1130" fill="#FCFAF6"/>
+<rect x="20" y="20" width="760" height="1090" rx="18" fill="none" stroke="#E7E0D3" stroke-width="1.5"/>
+<text x="400" y="74" text-anchor="middle" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" letter-spacing="3.5" font-weight="600" fill="#9A7B3F">제1포지션 · FIRST POSITION</text>
+<text x="400" y="117" text-anchor="middle" font-family="'Noto Serif KR','Noto Serif CJK KR','Nanum Myeongjo',Georgia,'Times New Roman',serif" font-size="35" font-weight="800" fill="#1A1714">바이올린 표준 운지표</text>
+<text x="400" y="143" text-anchor="middle" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" letter-spacing="2" fill="#8A8275">Standard Violin Fingering Chart</text>
+<rect x="368" y="154" width="64" height="3" rx="1.5" fill="#B45309"/>
+<text x="220" y="201" text-anchor="middle" font-family="'Noto Serif KR','Noto Serif CJK KR','Nanum Myeongjo',Georgia,'Times New Roman',serif" font-size="30" font-weight="800" fill="#241E18">G</text>
+<text x="220" y="222" text-anchor="middle" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" fill="#8A8275">4번선</text>
+<text x="340" y="201" text-anchor="middle" font-family="'Noto Serif KR','Noto Serif CJK KR','Nanum Myeongjo',Georgia,'Times New Roman',serif" font-size="30" font-weight="800" fill="#241E18">D</text>
+<text x="340" y="222" text-anchor="middle" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" fill="#8A8275">3번선</text>
+<text x="460" y="201" text-anchor="middle" font-family="'Noto Serif KR','Noto Serif CJK KR','Nanum Myeongjo',Georgia,'Times New Roman',serif" font-size="30" font-weight="800" fill="#241E18">A</text>
+<text x="460" y="222" text-anchor="middle" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" fill="#8A8275">2번선</text>
+<text x="580" y="201" text-anchor="middle" font-family="'Noto Serif KR','Noto Serif CJK KR','Nanum Myeongjo',Georgia,'Times New Roman',serif" font-size="30" font-weight="800" fill="#241E18">E</text>
+<text x="580" y="222" text-anchor="middle" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" fill="#8A8275">1번선</text>
+<rect x="165" y="246" width="470" height="554" rx="10" fill="url(#board)" filter="url(#soft)"/>
+<line x1="220" y1="252" x2="220" y2="800" stroke="#C8CCD1" stroke-width="5.0" stroke-linecap="round" opacity="0.92"/>
+<line x1="340" y1="252" x2="340" y2="800" stroke="#C8CCD1" stroke-width="3.8" stroke-linecap="round" opacity="0.92"/>
+<line x1="460" y1="252" x2="460" y2="800" stroke="#C8CCD1" stroke-width="2.9" stroke-linecap="round" opacity="0.92"/>
+<line x1="580" y1="252" x2="580" y2="800" stroke="#C8CCD1" stroke-width="2.1" stroke-linecap="round" opacity="0.92"/>
+<rect x="159" y="238" width="482" height="21" rx="5" fill="url(#nut)" stroke="#C7B690" stroke-width="0.8"/>
+<text x="104" y="250" text-anchor="middle" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="10" fill="#B3AB9C">너트(Nut)</text>
+<text x="104" y="292" text-anchor="middle" dominant-baseline="central" font-family="'Noto Serif KR','Noto Serif CJK KR','Nanum Myeongjo',Georgia,'Times New Roman',serif" font-size="26" font-weight="800" fill="#475569">0</text>
+<text x="104" y="314" text-anchor="middle" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="11.5" fill="#7A7468">개방현</text>
+<text x="104" y="412" text-anchor="middle" dominant-baseline="central" font-family="'Noto Serif KR','Noto Serif CJK KR','Nanum Myeongjo',Georgia,'Times New Roman',serif" font-size="26" font-weight="800" fill="#1D4ED8">1</text>
+<text x="104" y="434" text-anchor="middle" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="11.5" fill="#7A7468">검지</text>
+<text x="104" y="532" text-anchor="middle" dominant-baseline="central" font-family="'Noto Serif KR','Noto Serif CJK KR','Nanum Myeongjo',Georgia,'Times New Roman',serif" font-size="26" font-weight="800" fill="#15803D">2</text>
+<text x="104" y="554" text-anchor="middle" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="11.5" fill="#7A7468">중지</text>
+<text x="104" y="595" text-anchor="middle" dominant-baseline="central" font-family="'Noto Serif KR','Noto Serif CJK KR','Nanum Myeongjo',Georgia,'Times New Roman',serif" font-size="26" font-weight="800" fill="#C2410C">3</text>
+<text x="104" y="617" text-anchor="middle" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="11.5" fill="#7A7468">약지</text>
+<text x="104" y="715" text-anchor="middle" dominant-baseline="central" font-family="'Noto Serif KR','Noto Serif CJK KR','Nanum Myeongjo',Georgia,'Times New Roman',serif" font-size="26" font-weight="800" fill="#7E22CE">4</text>
+<text x="104" y="737" text-anchor="middle" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="11.5" fill="#7A7468">소지</text>
+<text x="104" y="352" text-anchor="middle" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="10" fill="#BCB4A4">온음</text>
+<text x="104" y="472" text-anchor="middle" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="10" fill="#BCB4A4">온음</text>
+<text x="104" y="655" text-anchor="middle" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="10" fill="#BCB4A4">온음</text>
+<circle cx="220" cy="292" r="30" fill="#FFFFFF" stroke="#475569" stroke-width="3"/>
+<text x="220" y="286" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="800" fill="#1F2937">G</text>
+<text x="220" y="305" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" font-weight="600" fill="#475569" opacity="1">솔</text>
+<circle cx="220" cy="412" r="30" fill="#1D4ED8"/>
+<text x="220" y="406" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">A</text>
+<text x="220" y="425" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" opacity="0.92">라</text>
+<circle cx="220" cy="532" r="30" fill="#15803D"/>
+<text x="220" y="526" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">B</text>
+<text x="220" y="545" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" opacity="0.92">시</text>
+<circle cx="220" cy="595" r="30" fill="#C2410C"/>
+<text x="220" y="589" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">C</text>
+<text x="220" y="608" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" opacity="0.92">도</text>
+<circle cx="220" cy="715" r="30" fill="#7E22CE"/>
+<text x="220" y="709" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">D</text>
+<text x="220" y="728" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" opacity="0.92">레</text>
+<circle cx="340" cy="292" r="30" fill="#FFFFFF" stroke="#475569" stroke-width="3"/>
+<text x="340" y="286" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="800" fill="#1F2937">D</text>
+<text x="340" y="305" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" font-weight="600" fill="#475569" opacity="1">레</text>
+<circle cx="340" cy="412" r="30" fill="#1D4ED8"/>
+<text x="340" y="406" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">E</text>
+<text x="340" y="425" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" opacity="0.92">미</text>
+<circle cx="340" cy="532" r="30" fill="#15803D"/>
+<text x="340" y="526" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">F♯</text>
+<text x="340" y="545" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" opacity="0.92">파♯</text>
+<circle cx="340" cy="595" r="30" fill="#C2410C"/>
+<text x="340" y="589" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">G</text>
+<text x="340" y="608" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" opacity="0.92">솔</text>
+<circle cx="340" cy="715" r="30" fill="#7E22CE"/>
+<text x="340" y="709" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">A</text>
+<text x="340" y="728" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" opacity="0.92">라</text>
+<circle cx="460" cy="292" r="30" fill="#FFFFFF" stroke="#475569" stroke-width="3"/>
+<text x="460" y="286" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="800" fill="#1F2937">A</text>
+<text x="460" y="305" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" font-weight="600" fill="#475569" opacity="1">라</text>
+<circle cx="460" cy="412" r="30" fill="#1D4ED8"/>
+<text x="460" y="406" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">B</text>
+<text x="460" y="425" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" opacity="0.92">시</text>
+<circle cx="460" cy="532" r="30" fill="#15803D"/>
+<text x="460" y="526" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">C♯</text>
+<text x="460" y="545" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" opacity="0.92">도♯</text>
+<circle cx="460" cy="595" r="30" fill="#C2410C"/>
+<text x="460" y="589" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">D</text>
+<text x="460" y="608" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" opacity="0.92">레</text>
+<circle cx="460" cy="715" r="30" fill="#7E22CE"/>
+<text x="460" y="709" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">E</text>
+<text x="460" y="728" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" opacity="0.92">미</text>
+<circle cx="580" cy="292" r="30" fill="#FFFFFF" stroke="#475569" stroke-width="3"/>
+<text x="580" y="286" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="800" fill="#1F2937">E</text>
+<text x="580" y="305" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" font-weight="600" fill="#475569" opacity="1">미</text>
+<circle cx="580" cy="412" r="30" fill="#1D4ED8"/>
+<text x="580" y="406" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">F♯</text>
+<text x="580" y="425" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" opacity="0.92">파♯</text>
+<circle cx="580" cy="532" r="30" fill="#15803D"/>
+<text x="580" y="526" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">G♯</text>
+<text x="580" y="545" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" opacity="0.92">솔♯</text>
+<circle cx="580" cy="595" r="30" fill="#C2410C"/>
+<text x="580" y="589" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">A</text>
+<text x="580" y="608" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" opacity="0.92">라</text>
+<circle cx="580" cy="715" r="30" fill="#7E22CE"/>
+<text x="580" y="709" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">B</text>
+<text x="580" y="728" text-anchor="middle" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" opacity="0.92">시</text>
+<path d="M648 524 H640 M648 524 V603 M648 603 H640 M648 563 H660" fill="none" stroke="#B45309" stroke-width="2" stroke-linecap="round"/>
+<text x="664" y="558" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" font-weight="800" fill="#B45309">반음</text>
+<text x="664" y="576" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="10.5" fill="#9A7B3F">½음 · 붙음</text>
+<rect x="165" y="838" width="470" height="70" rx="14" fill="#FFFFFF" stroke="#ECE6DB" stroke-width="1.2"/>
+<text x="186" y="861" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="11" font-weight="700" letter-spacing="1.5" fill="#9A7B3F">손가락 번호 · 색상</text>
+<circle cx="212" cy="889" r="9" fill="#475569"/>
+<text x="227" y="889" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" fill="#3A3630">0 개방현</text>
+<circle cx="302" cy="889" r="9" fill="#1D4ED8"/>
+<text x="317" y="889" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" fill="#3A3630">1 검지</text>
+<circle cx="392" cy="889" r="9" fill="#15803D"/>
+<text x="407" y="889" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" fill="#3A3630">2 중지</text>
+<circle cx="482" cy="889" r="9" fill="#C2410C"/>
+<text x="497" y="889" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" fill="#3A3630">3 약지</text>
+<circle cx="566" cy="889" r="9" fill="#7E22CE"/>
+<text x="581" y="889" dominant-baseline="central" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" fill="#3A3630">4 소지</text>
+<rect x="165" y="928" width="470" height="158" rx="14" fill="#FBF6EC" stroke="#ECE6DB" stroke-width="1.2"/>
+<text x="186" y="954" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" font-weight="800" fill="#9A7B3F">운지표 읽는 법</text>
+<circle cx="190" cy="976" r="2.4" fill="#B45309"/>
+<text x="200" y="980" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="11.5" fill="#4A463F">채운 원 = 누르는 음 · 빈 원(○) = 누르지 않는 개방현</text>
+<circle cx="190" cy="998" r="2.4" fill="#B45309"/>
+<text x="200" y="1002" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="11.5" fill="#4A463F">2·3번 손가락은 반음(서로 붙음), 그 외 손가락 사이는 온음 간격</text>
+<circle cx="190" cy="1020" r="2.4" fill="#B45309"/>
+<text x="200" y="1024" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="11.5" fill="#4A463F">각 줄의 4번 손가락 = 윗줄의 개방현과 같은 음 (예: G현 4번 = 개방 D)</text>
+<circle cx="190" cy="1042" r="2.4" fill="#B45309"/>
+<text x="200" y="1046" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="11.5" fill="#4A463F">너트(맨 위)에서 아래로 갈수록 음이 높아짐 · 높은음자리표로 읽음</text>
+<circle cx="190" cy="1064" r="2.4" fill="#B45309"/>
+<text x="200" y="1068" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="11.5" fill="#4A463F">음이름(영문)과 계이름(한글·도레미)을 함께 표기 · 제1포지션 기준</text>
+<text x="400" y="1100" text-anchor="middle" font-family="'Pretendard','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="10" fill="#B8B0A2">바이올린 표준 운지표 · 제1포지션 · 음이름 / 계이름 병기</text>
+</svg>
