@@ -208,51 +208,323 @@ input:focus-visible {
   min-height: 55dvh;
   flex: 1;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
 }
 
 .string-labels {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  padding: 0 22px;
+  width: min(330px, 74%);
+  margin: 0 auto;
+  padding: 0 8px;
   color: var(--muted);
   font-weight: 800;
   text-align: center;
 }
 
+.string-labels span {
+  display: inline-grid;
+  min-height: 24px;
+  place-items: center;
+  border-bottom: 1px solid color-mix(in srgb, var(--muted) 28%, transparent);
+  font-size: 12px;
+  letter-spacing: 0;
+}
+
 .fingerboard {
   position: relative;
-  min-height: 440px;
+  min-height: clamp(560px, 74dvh, 820px);
   flex: 1;
   overflow: hidden;
-  border-radius: 20px;
+  isolation: isolate;
+  border: 1px solid color-mix(in srgb, var(--line) 68%, transparent);
+  border-radius: 8px;
   background:
-    linear-gradient(90deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.05)),
-    var(--ebony);
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05), 0 16px 36px rgba(36, 30, 24, 0.24);
+    radial-gradient(circle at 50% 3%, rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.18) 24%, transparent 53%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.95), rgba(244, 242, 237, 0.82) 48%, rgba(235, 232, 225, 0.7)),
+    var(--surface);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.72),
+    0 18px 42px rgba(36, 30, 24, 0.16);
+}
+
+.fingerboard::before {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(ellipse at 50% 42%, rgba(36, 30, 24, 0.18), transparent 22%),
+    linear-gradient(90deg, transparent, rgba(36, 30, 24, 0.08), transparent);
+  content: "";
+}
+
+.scroll-crown {
+  position: absolute;
+  top: -3.2%;
+  left: 41%;
+  z-index: 1;
+  width: 18%;
+  height: 9%;
+  border-radius: 46% 46% 40% 40%;
+  background:
+    radial-gradient(circle at 25% 36%, #6d250b 0 12%, transparent 13%),
+    radial-gradient(circle at 75% 36%, #7b2a0d 0 12%, transparent 13%),
+    radial-gradient(ellipse at 50% 100%, #321306 0 26%, transparent 27%),
+    linear-gradient(110deg, #8f3a12, #d07124 42%, #5c210b 72%, #1b0b05);
+  box-shadow:
+    inset 0 -10px 16px rgba(23, 7, 2, 0.58),
+    0 7px 12px rgba(36, 30, 24, 0.2);
+}
+
+.scroll-crown span {
+  position: absolute;
+  right: 23%;
+  bottom: 8%;
+  width: 54%;
+  height: 48%;
+  border: 5px solid rgba(45, 15, 5, 0.88);
+  border-left-color: rgba(207, 104, 33, 0.86);
+  border-radius: 50%;
+}
+
+.pegbox {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.pegbox-body,
+.pegbox-cavity,
+.neck-heel,
+.fingerboard-core,
+.nut,
+.string-web,
+.tuning-peg,
+.string-winding {
+  position: absolute;
+}
+
+.pegbox-body {
+  top: 2.6%;
+  left: 38.2%;
+  width: 23.6%;
+  height: 27.2%;
+  border-radius: 9% 9% 18% 18%;
+  background:
+    linear-gradient(90deg, rgba(39, 12, 2, 0.56), transparent 13%, transparent 87%, rgba(39, 12, 2, 0.58)),
+    repeating-linear-gradient(94deg, rgba(255, 209, 122, 0.24) 0 2px, transparent 2px 9px),
+    linear-gradient(90deg, #74300f, #c9691f 20%, #e18834 42%, #813010 72%, #4b1907);
+  box-shadow:
+    inset 0 0 0 2px rgba(79, 23, 5, 0.72),
+    inset 11px 0 14px rgba(255, 193, 99, 0.25),
+    inset -11px 0 16px rgba(30, 8, 2, 0.5),
+    0 8px 18px rgba(36, 30, 24, 0.3);
+  clip-path: polygon(17% 0, 83% 0, 100% 100%, 0 100%);
+}
+
+.pegbox-cavity {
+  top: 6.1%;
+  left: 43.6%;
+  z-index: 2;
+  width: 12.8%;
+  height: 20.4%;
+  border-radius: 6px 6px 11px 11px;
+  background:
+    radial-gradient(ellipse at 50% 18%, rgba(134, 64, 21, 0.35), transparent 38%),
+    linear-gradient(90deg, #070605, #1a0e08 47%, #050404);
+  box-shadow:
+    inset 0 0 18px rgba(0, 0, 0, 0.88),
+    0 0 0 1px rgba(255, 185, 81, 0.2);
+}
+
+.neck-heel {
+  top: 24.8%;
+  left: 35.1%;
+  z-index: 1;
+  width: 29.8%;
+  height: 12.6%;
+  border-radius: 4px 4px 34% 34%;
+  background:
+    linear-gradient(90deg, rgba(59, 17, 4, 0.72), transparent 15%, transparent 85%, rgba(48, 12, 3, 0.72)),
+    repeating-linear-gradient(90deg, rgba(255, 210, 122, 0.16) 0 2px, transparent 2px 8px),
+    linear-gradient(90deg, #6f2a0b, #ce7628 30%, #e39a44 50%, #924216 76%, #451607);
+  box-shadow:
+    inset 0 0 0 1px rgba(91, 31, 7, 0.64),
+    0 10px 18px rgba(36, 30, 24, 0.24);
+  clip-path: polygon(9% 0, 91% 0, 100% 100%, 0 100%);
+}
+
+.fingerboard-core {
+  top: 27.2%;
+  bottom: 1.7%;
+  left: 31.2%;
+  z-index: 2;
+  width: 37.6%;
+  border-radius: 0 0 34% 34% / 0 0 3.4% 3.4%;
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.13), transparent 8%, transparent 92%, rgba(255, 255, 255, 0.11)),
+    radial-gradient(ellipse at 48% 4%, rgba(255, 255, 255, 0.14), transparent 38%),
+    repeating-linear-gradient(92deg, rgba(255, 255, 255, 0.025) 0 1px, transparent 1px 9px),
+    linear-gradient(90deg, #050606 0%, #222522 13%, #101211 28%, #050606 46%, #252927 53%, #111312 67%, #262a28 86%, #060706 100%);
+  box-shadow:
+    inset 18px 0 20px rgba(255, 255, 255, 0.055),
+    inset -22px 0 18px rgba(0, 0, 0, 0.52),
+    inset 0 -10px 16px rgba(0, 0, 0, 0.64),
+    0 12px 24px rgba(12, 11, 10, 0.34);
+  clip-path: polygon(25% 0, 75% 0, 97% 97.2%, 90% 100%, 10% 100%, 3% 97.2%);
 }
 
 .nut {
-  position: absolute;
-  inset: 15px 14px auto;
-  height: 13px;
-  border-radius: 7px;
-  background: linear-gradient(180deg, #f3ecda, #d8caae);
-  z-index: 2;
+  top: 26.4%;
+  left: 35.2%;
+  z-index: 5;
+  width: 29.6%;
+  height: 18px;
+  border-radius: 5px 5px 8px 8px;
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.18), transparent 13%, transparent 87%, rgba(255, 255, 255, 0.14)),
+    linear-gradient(180deg, #2e302d, #070808 48%, #383b37);
+  box-shadow:
+    inset 0 2px 2px rgba(255, 255, 255, 0.2),
+    inset 0 -3px 4px rgba(0, 0, 0, 0.72),
+    0 4px 9px rgba(0, 0, 0, 0.36);
 }
 
-.string-line {
+.string-web {
+  inset: 0;
+  z-index: 6;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  pointer-events: none;
+}
+
+.instrument-string-shadow {
+  fill: none;
+  stroke: rgba(0, 0, 0, 0.42);
+  stroke-linecap: round;
+  stroke-width: 4.2;
+  transform: translate(0.42px, 0);
+}
+
+.instrument-string {
+  fill: none;
+  stroke-linecap: round;
+  filter: drop-shadow(0 1px 0 rgba(255, 255, 255, 0.34)) drop-shadow(0 2px 2px rgba(0, 0, 0, 0.34));
+}
+
+.instrument-string.string-g,
+.instrument-string.string-d,
+.instrument-string.string-a,
+.instrument-string.string-e {
+  stroke: #d7d9d4;
+}
+
+.instrument-string.string-g {
+  stroke: #c6c7c2;
+}
+
+.instrument-string.string-d {
+  stroke: #d9dbd6;
+}
+
+.instrument-string.string-a {
+  stroke: #eceeea;
+}
+
+.instrument-string.string-e {
+  stroke: #f9faf5;
+}
+
+.tuning-peg {
+  z-index: 3;
+  width: 28%;
+  height: 9%;
+}
+
+.tuning-peg::before {
   position: absolute;
-  top: 22px;
-  bottom: 16px;
-  border-radius: 99px;
-  background: linear-gradient(90deg, #f8fafc, #9ca3af 40%, #f8fafc);
-  transform: translateX(-50%);
+  top: 41%;
+  height: 18%;
+  border-radius: 999px;
+  background:
+    linear-gradient(180deg, #454744, #080909 45%, #2c2f2c),
+    #111;
+  box-shadow:
+    inset 0 2px 2px rgba(255, 255, 255, 0.16),
+    0 4px 7px rgba(0, 0, 0, 0.3);
+  content: "";
+}
+
+.tuning-peg span {
+  position: absolute;
+  top: 0;
+  width: 34%;
+  height: 100%;
+  border-radius: 42% 47% 45% 46%;
+  background:
+    radial-gradient(ellipse at 34% 25%, rgba(255, 255, 255, 0.16), transparent 38%),
+    repeating-linear-gradient(172deg, rgba(255, 255, 255, 0.055) 0 1px, transparent 1px 5px),
+    linear-gradient(145deg, #343633, #0b0c0c 62%, #242623);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.06),
+    inset -7px -8px 12px rgba(0, 0, 0, 0.36),
+    0 6px 10px rgba(0, 0, 0, 0.25);
+}
+
+.peg-left {
+  left: 16.3%;
+}
+
+.peg-right {
+  right: 16.3%;
+}
+
+.peg-upper {
+  top: 6.5%;
+}
+
+.peg-lower {
+  top: 17.4%;
+}
+
+.peg-left::before {
+  right: 17%;
+  left: 31%;
+}
+
+.peg-right::before {
+  right: 31%;
+  left: 17%;
+}
+
+.peg-left span {
+  left: 0;
+  transform: rotate(-5deg);
+}
+
+.peg-right span {
+  right: 0;
+  transform: rotate(5deg);
+}
+
+.string-winding {
+  z-index: 4;
+  width: 2.1%;
+  height: 7.4%;
+  border-radius: 999px;
+  background:
+    repeating-linear-gradient(180deg, transparent 0 5px, rgba(255, 255, 255, 0.5) 5px 6px),
+    linear-gradient(90deg, color-mix(in srgb, var(--winding-color) 48%, black), var(--winding-color), color-mix(in srgb, var(--winding-color) 50%, black));
+  box-shadow:
+    0 0 8px color-mix(in srgb, var(--winding-color) 58%, transparent),
+    inset 0 0 3px rgba(0, 0, 0, 0.42);
 }
 
 .finger-marker {
   position: absolute;
-  z-index: 5;
+  z-index: 8;
   display: grid;
   width: 48px;
   height: 48px;
@@ -265,12 +537,17 @@ input:focus-visible {
 
 .finger-marker::before {
   position: absolute;
-  width: 34px;
-  height: 34px;
+  width: 31px;
+  height: 31px;
   border-radius: inherit;
-  background: var(--finger-color);
+  background:
+    radial-gradient(circle at 35% 28%, rgba(255, 255, 255, 0.74), transparent 22%),
+    linear-gradient(145deg, color-mix(in srgb, var(--finger-color) 70%, white), var(--finger-color) 54%, color-mix(in srgb, var(--finger-color) 70%, black));
   content: "";
-  box-shadow: inset 0 -2px 5px rgba(0, 0, 0, 0.18);
+  box-shadow:
+    inset 0 -3px 6px rgba(0, 0, 0, 0.28),
+    0 2px 7px rgba(0, 0, 0, 0.24),
+    0 0 0 1px rgba(255, 255, 255, 0.58);
 }
 
 .finger-marker.is-chromatic {
@@ -278,15 +555,29 @@ input:focus-visible {
 }
 
 .finger-marker.is-chromatic::before {
-  width: 28px;
-  height: 28px;
+  width: 27px;
+  height: 27px;
   border: 2px dashed rgba(255, 255, 255, 0.72);
+}
+
+.finger-marker.is-open-string::before {
+  width: 27px;
+  height: 27px;
+  background:
+    radial-gradient(circle at 35% 28%, rgba(255, 255, 255, 0.74), transparent 22%),
+    linear-gradient(145deg, color-mix(in srgb, var(--finger-color) 56%, white), var(--finger-color) 58%, color-mix(in srgb, var(--finger-color) 76%, black));
 }
 
 .finger-marker.is-active::before,
 .finger-marker.is-target::before {
-  width: 40px;
-  height: 40px;
+  width: 39px;
+  height: 39px;
+}
+
+.finger-marker.is-open-string.is-active::before,
+.finger-marker.is-open-string.is-target::before {
+  width: 33px;
+  height: 33px;
 }
 
 .finger-marker span {
@@ -297,6 +588,10 @@ input:focus-visible {
   font-weight: 900;
   line-height: 1.02;
   text-align: center;
+}
+
+.finger-marker.is-open-string span {
+  font-size: 10px;
 }
 
 .finger-legend {
